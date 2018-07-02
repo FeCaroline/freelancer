@@ -1,3 +1,260 @@
-/*
- * Estilos de tu proyecto
- */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 93px;
+  background-color: #2c3e50;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  padding: 15px 60px;
+  top: 0;
+  width: 100%;
+}
+.top-init{
+  font-size: 28.8px;
+  text-align: left;
+  font-weight: 700;
+  margin: 13px 0 0 102px;
+}
+.top-menu{
+  list-style: none;
+  font-size: 17px;
+  font-weight: 700;
+  width: 434px;
+  margin-top: 20px;
+
+}
+
+.top-menu li{
+  display: inline-block;
+  margin: 0 36px 0 -23px;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #18bc9c;
+  color: #fff;
+  padding: 85px 0;
+  width: 100%;
+}
+.menu img{
+  width: 275px;
+  margin: 28px 0 0 20px;
+}
+.start-bootstrap{
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+/* .star-line{
+  font-size: 75px;
+  margin-top: 36px;
+} */
+.star-line{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -18px;
+}
+.one-star{
+  background-color: #2c3e50;
+  font-size: 30px;
+  padding: 0 8px;
+
+}
+.white-line{
+  background-color: #fff;
+  height: 4px;
+  width: 108px;
+}
+
+.subtitle{
+  font-size: 29px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 21px;
+}
+
+.portfolio-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2c3e50;
+  padding:70px 0;
+  width: 100%;
+}
+.menu-portfolio{
+  font-size: 50px;
+  margin-top: 30px;
+  color: #000;
+  margin: 30px 0 30px 0;
+}
+.portfolio {
+  display: flex;
+  flex-flow: wrap;
+  align-content: space-between;
+  justify-content: center;
+  margin: 10px 0 0 -7px;
+}
+.portfolio img{
+  width: 407px;
+  height: 300px;
+  padding: 15px;
+}
+
+.section-about{
+  margin-top: 44px;
+  padding-bottom: 103px;
+  font-size: 50px;
+  color: #fff;
+  margin: 18px 0 30px 0;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+.column-text{
+  display: inline-block;
+  width: 50%;
+  font-family: 'Lato', sans-serif;
+  margin: 18px;
+  font-size: 25px;
+}
+.button{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  border: 2px solid #fff;
+  padding: 14px;
+  border-radius: 6px;
+  width: 15%;
+  text-align: center;
+  margin: 20px 0 0 15px
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px 50px 52px 50px;
+  width: 50%;
+  font-family: 'Lato', sans-serif;
+}
+.form label{
+  font-size: 25px;
+  font-weight: 500;
+  color: #868e96;
+}
+.form input{
+  margin-bottom: 40px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+}
+.form textarea{
+  margin-bottom: 50px;
+  height: 140px;
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+}
+a.send {
+  background-color: #18bc9c;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px 10px;
+  font-size: 18px bold;
+  font-weight: 500;
+  width: 11%;
+}
+
+.container-footer{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 3% 10% 0 8%;
+  background-color: #2c3e50;
+  color: #fff;
+}
+.location, .web, .freelancer {
+  width: 30%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 6px 0 60px 30px;
+}
+.location p {
+  margin: -10px 0 0 0;
+  line-height: 1.5;
+  padding: 0 65px;
+}
+.freelancer p {
+  margin: -15px 0 0 0;
+  line-height: 1.5;
+  padding: 0;
+}
+.freelancer a.link-text{
+  color: #18bc9c;
+}
+.freelancer a.link-text{
+  color: #128f76;
+  text-decoration: underline;
+}
+.footer-title{
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 45px 5px;
+}
+.border-rounded{
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  font-size: 15px;
+  margin-left: 3px;
+}
+
+i.fa-facebook-f{
+  padding: 15px 18px;
+}
+i.fa-google-plus-g{
+  padding: 15px 11px;
+}
+i.fa-twitter, i.fa-linkedin-in, i.fa-dribbble{
+  padding: 15px;
+}
+.copy{
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  background-color: #1a252f;
+  padding: 2%;
+  margin-top: 0;
+}
